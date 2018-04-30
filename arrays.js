@@ -19,6 +19,7 @@ var chocolateBars =  ["snickers", "hundred grand", "kitkat", "skittles"];
     }
      function addElementToEndOfArray(array, element){
       var array2 = [...array, element];
+      return array2;
     }
     function destructivelyAddElementsToEndOfArray(array, element){
       
