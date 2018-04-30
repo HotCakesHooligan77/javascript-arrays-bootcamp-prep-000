@@ -39,4 +39,6 @@ var chocolateBars =  ["snickers", "hundred grand", "kitkat", "skittles"];
       var array1 = array.slice(1);
       return array1;
     }
+    
+    
    
