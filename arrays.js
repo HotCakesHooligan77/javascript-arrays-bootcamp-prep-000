@@ -26,4 +26,5 @@ var chocolateBars =  ["snickers", "hundred grand", "kitkat", "skittles"];
      return array;
     }
     
+    function accesElementInArray()
    
