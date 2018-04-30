@@ -9,16 +9,16 @@ var ingredient6 = "garlic"
 var chocolateBars =  ["snickers", "hundred grand", "kitkat", "skittles"];
     
     function addElementToBeginningOfArray(array, element){
-    var array1 = [element,...array]
-  return array1
+    var array1 = [element,...array];
+  return array1;
     }
     
     function destructivelyAddElementToBeginningOfArray(array, element){
       var arr = [array.unshift(element)];
-      return arr
+      return arr;
     }
      function addElementToEndOfArray(array, element){
-      var array2 = []
+      var array2 = [...array, element];
     }
     function destructivelyAddElementsToEndOfArray(array, element){
       
