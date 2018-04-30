@@ -17,11 +17,11 @@ var chocolateBars =  ["snickers", "hundred grand", "kitkat", "skittles"];
       var arr = [array.unshift(element)];
       return arr
     }
-    
+     function addElementToEndOfArray(array, element){
+      
+    }
     function destructivelyAddElementsToEndOfArray(array, element){
       
     }
     
-    function addElementToEndOfArray(array, element){
-      
-    }
+   
